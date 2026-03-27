@@ -1,0 +1,13 @@
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+user.name=samuel
+user.email=samueldreyergalvao@gmail.com
+init.defaultbranch=main
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/samueldg2007/testaula01.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
